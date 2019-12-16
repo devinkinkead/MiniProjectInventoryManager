@@ -1,1 +1,1 @@
-# MiniProjectInventoryManager
+# MiniProject-InventoryManager
