@@ -1,6 +1,10 @@
 package application;
 // Devin Kinkead
 import java.util.Scanner;
+
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.layout.GridPane;
 public class Utilities {
 	
 	private static Scanner scan = InventorySystem.scan;
@@ -24,8 +28,14 @@ public class Utilities {
 			return false;
 		}
 		return true;
+		
 	} //isNumberic
-	
+	public static void paneSet(GridPane g) {
+		g.setAlignment(Pos.CENTER);
+        g.setHgap(10);
+        g.setVgap(10);
+        g.setPadding(new Insets(25,25,25,25));
+	}
 
 
 

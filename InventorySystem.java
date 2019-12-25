@@ -134,7 +134,7 @@ public class InventorySystem {
 		}
 	} // CheckOut
 	
-	public void checkIn() {
+	public void checkIn(String device) {
 		//Variables
 		String input;
 		int selection = 0;
@@ -315,7 +315,7 @@ public class InventorySystem {
 				this.checkOut();
 				break;
 			case 6:
-				this.checkIn();
+				//this.checkIn();
 				break;
 			case 7:
 				System.out.println("\nExiting Program...");
